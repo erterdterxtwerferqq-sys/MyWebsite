@@ -1,1 +1,54 @@
+body {
+  margin: 0;
+  background: #0b0d12;
+  color: white;
+  font-family: system-ui;
+  padding: 30px;
+}
 
+h1 {
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  background: #141824;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.user img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.rank {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.rank.admin { background: #ff3c3c; }
+.rank.vip { background: #f3c623; color: black; }
+.rank.member { background: #3c7cff; }
